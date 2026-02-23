@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Betania+Patmos+In&family=Bytesized&family=Chokokutai&family=Danfo&family=Fascinate&family=Jacquard+12&family=Lacquer&family=Libre+Barcode+39+Extended&family=Micro+5+Charted&family=Moirai+One&family=Nosifer&family=Oi&family=Palette+Mosaic&family=Playwrite+CU+Guides&family=Rock+3D&family=Rubik+Beastly&family=Stalinist+One&family=Tourney:ital,wght@0,100..900;1,100..900&family=UnifrakturMaguntia&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 10px 5%;              
+    background-color: #000000;
+    color: white;
+    font-family: monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: black;
+    font-family: monospace;
+    padding:0cm;
+    margin: 0;
+
+} 
+
+nav li {
+    margin-left: 5px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none; 
+}
+
+nav li a:hover {
+    background-color: #f24646; 
+}
+
+body{
+    font-family: monospace;
+    font-size: large;
+}
+
+/*v1*/
+.redacted {
+    background-color: #000;
+    color: #000;
+    cursor:not-allowed;
+}
+
+/*v2*/
+#type1 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type1:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 2s steps(5) infinite;
+
+}
+
+#type2 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type2:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 4s steps(25) infinite;
+
+}
+
+#type3 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type3:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 2s steps(11) infinite;
+
+}
+
+#type4 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type4:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 8s steps(40) infinite;
+
+}
+
+#type5 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type5:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 6s steps(23) infinite;
+
+}
+
+#type6 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type6:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 5s steps(16) infinite;
+
+}
+
+#type7 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type7:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 6s steps(27) infinite;
+
+}
+
+#type8 {
+    font-weight: bold;
+    font-family: monospace;
+    max-width: fit-content;
+    position: relative
+    
+}
+    
+#type8:after {
+    content: "\200B";
+    border-left: 3px solid blue;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    animation: blinking 0.8s infinite, typing 4s steps(12) infinite;
+
+}
+
+@keyframes typing {
+    0%, 80%, 95%, 100% {
+        margin-left:100%;
+        width:0;
+    }
+    0%, 10%, 100% {
+        margin-left:0;
+        width:100%;
+    }
+}
+
+
+/*v3*/
+@keyframes blinking {
+    to {
+        border-left: 3px solid transparent;
+    }
+}
+
+.red-text {
+  color: #f24646;
+}
+
+.black-text {
+  color: black;
+}
+
+.white-text {
+  color: white;
+}
+
+@keyframes snapBackground {
+  0%, 33% { background-color: white; }
+  33.1%, 66% { background-color: black; }
+  66.1%, 99.9% { background-color: #f24646; }
+  100% { background-color: white; }
+}
+
+#color-changing {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: snapBackground 3s infinite step-end;
+}
+
+/*v4*/
+.thick-strike-tag {
+  text-decoration-line: line-through;
+  text-decoration-color: #f24646;
+  text-decoration-thickness: 4px; 
+}
+
+/*v5*/
+#flies1 {
+    animation-name: fly1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+@keyframes fly1 {
+    from {
+        transform: translateY(0px) rotate(0deg);
+    }
+    to {
+        transform: translateY(20px) rotate(10deg);
+    }   
+}
+
+#flies2 {
+    animation-name: fly2;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+@keyframes fly2 {
+    from {
+        transform: translateY(0px) rotate(0deg);
+    }
+    to {
+        transform: translateY(40px) rotate(-10deg);
+    }  
+}
+
+#flies3 {
+    animation-name: fly3;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+@keyframes fly3 {
+    from {
+        transform: translateY(0px) rotate(0deg);
+    }
+    to {
+        transform: translate(40px, -100px) rotate(0deg);
+    }    
+}
+
+#flies4 {
+    animation-name: fly4;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+@keyframes fly4 {
+    from {
+        transform: translateY(0px) rotate(0deg);
+    }
+    to {
+        transform: translate(40px,100px) rotate(50deg);
+    }    
+}
+
+#flies5 {
+    animation-name: fly5;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+@keyframes fly5 {
+    from {
+        transform: translateY(0px) rotate(0deg);
+    }
+    to {
+        transform: translate(40px) rotate(-10deg);
+    }    
+}
+
+/*v6*/
+.spinning-text span {
+    display: inline-block; 
+    animation: rotate360 4s linear infinite;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*v7*/
+.container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  }
+
+.sliding-text1 {
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  cursor: default;
+  width: 100%;        
+  text-align: center; 
+}
+
+.sliding-text1:hover {
+  text-align: left;
+  padding-left: 0; 
+}
+
+/*v8*/
+#sq1 {
+    text-align: center;
+}
+
+#sq2 {
+    transform: rotate(90deg) translate(250px, -400px);
+    text-align: center;
+}
+
+#sq3 {
+    transform: rotate(-180deg) translateY(-400px);
+    text-align: center;
+}
+
+
+#sq4 {
+    transform: rotate(-90deg) translate(100px, -400px);
+    text-align: center;
+}
+
+/*v9*/
+.hover-word {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dashed black;
+}
+
+.pop-up {
+  display: none;
+}
+
+.hover-word:hover {
+  font-size: 0;
+}
+
+.hover-word:hover .pop-up {
+  display: inline;
+  font-size: 1rem;
+  font-family: monospace; 
+}
+
+/*v12*/
+#body2 {
+    font-size: small;
+}
+
+/*v13*/
+.grow-text {
+    display: inline-block; 
+    transition: transform 0.3s ease; 
+}
+
+.grow-text:hover {
+    transform: scale(2); 
+    }
+
+
+.pop-out {
+    display: inline-block;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+.pop-out:hover {
+    transform: scale(2) translateY(-5px); 
+    text-shadow: 2px 5px 10px rgba(0,0,0,0.2); 
+}
+
+.hover-word2 span {
+  display: inline-block;
+  font-size: 14px;
+  transition: transform 0.s ease; 
+  cursor: pointer;
+  margin-left: 6px;
+  font-family: monospace;
+}
+
+.hover-word2 span:hover {
+  transform: scale(2); 
+
+}
+
+/*v14*/
+#notification-container {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 320px;
+  max-height: 90vh;   
+  overflow-y: auto;   
+  padding-right: 6px;
+}
+
+  
+.notification {
+  background: white;
+  padding: 10px 18px 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-left: 5px solid #000000;
+  min-width: 250px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  opacity: 0;
+  transform: translateX(120px) scale(0.9);
+  animation: popIn 0.5s forwards;
+  pointer-events: auto;
+}
+
+  
+  @keyframes popIn {
+    to {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+    }
+  }
+
+.hide-toggle {
+  display: none;
+}
+
+.icon {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.sliding-text {
+  flex: 1;
+  font-size: 14px;
+}
+
+.close-btn {
+  cursor: pointer;
+  font-weight: bold;
+  color: #888;
+}
+
+.close-btn:hover {
+  color: #ff0015;
+}
+
+.hide-toggle:checked + .notification {
+  display: none;
+}
+
+.n1 { animation-delay: 0s; }
+.n2 { animation-delay: 0.5s; }
+.n3 { animation-delay: 1s; }
+.n4 { animation-delay: 1.5s; }
+.n5 { animation-delay: 2s; }
+.n6 { animation-delay: 2.5s; }
+.n7 { animation-delay: 3s; }
+.n8 { animation-delay: 3.5s; }
+.n9 { animation-delay: 4s; }
+.n10 { animation-delay: 4.5s; }
+.n11 { animation-delay: 5s; }
+.n12 { animation-delay: 5.5s; }
+.n13 { animation-delay: 6s; }
+.n14 { animation-delay: 6.5s; }
+.n15 { animation-delay: 7s; }
+.n16 { animation-delay: 7.5s; }
+.n17 { animation-delay: 8s; }
+.n18 { animation-delay: 8.5s; }
+.n19 { animation-delay: 9s; }
+.n20 { animation-delay: 9.5s; }
+.n21 { animation-delay: 10s; }
+.n22 { animation-delay: 10.5s; }
+.n23 { animation-delay: 11s; }
+.n24 { animation-delay: 11.5s; }
+.n25 { animation-delay: 12s; }
+.n26 { animation-delay: 12.5s; }
+.n27 { animation-delay: 13s; }
+.n28 { animation-delay: 13.5s; }
+.n29 { animation-delay: 14s; }
+.n30 { animation-delay: 14.5s; }
+.n31 { animation-delay: 15s; }
+.n32 { animation-delay: 15.5s; }
+.n34 { animation-delay: 16s; }
+.n35 { animation-delay: 16.5s; }
+.n36 { animation-delay: 17s; }
+.n37 { animation-delay: 17.5s; }
+.n38 { animation-delay: 18s; }
+
+/*v15*/
+.hover-word4 {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-word4:hover {
+  font-size: 0;
+}
+
+.hover-word4:hover .pop-up {
+  display: inline;
+  font-size: 1rem;
+  font-family: monospace; 
+  color:#000
+}
+
+/*v16*/
+.micro-5-charted-regular {
+  font-family: "Micro 5 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden; 
+  white-space: nowrap;
+  transform: translateY(200px); 
+}
+
+.marquee-text {
+  display: inline-block;
+  padding-left: 100%; 
+  animation: scroll-left 130s linear infinite;
+  font-size: 60px;
+}
+
+@keyframes scroll-left {
+  0%   { transform: translate(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/*v17*/
+.playwrite-cu-guides-regular {
+  font-family: "Playwrite CU Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fascinate-regular {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.stalinist-one-regular {
+  font-family: "Stalinist One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tourney-100 {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.tourney-400 {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.tourney-900 {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.danfo {
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
+.oi-regular {
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chokokutai-regular {
+  font-family: "Chokokutai", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-beastly-regular {
+  font-family: "Rubik Beastly", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rock-3d-regular {
+  font-family: "Rock 3D", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nosifer-regular {
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bytesized-regular {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.moirai-one-regular {
+  font-family: "Moirai One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lacquer-regular {
+  font-family: "Lacquer", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.astloch-regular {
+  font-family: "Astloch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.astloch-bold {
+  font-family: "Astloch", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.palette-mosaic-regular {
+  font-family: "Palette Mosaic", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.betania-patmos-in-regular {
+  font-family: "Betania Patmos In", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*v18*/
+#grid1 {
+    letter-spacing: 102px;
+    font-size: xx-small;
+    margin-left: 50px;
+}
+
+#grid2 {
+    letter-spacing: 27px;
+    font-size: xx-small;
+    margin-left: 100px
+    ;
+}
+
+#grid3 {
+    letter-spacing: 50px;
+    font-size: xx-small;
+    margin-left: 22px;
+}
+
+#grid4 {
+    letter-spacing: 70px;
+    font-size: xx-small;
+    margin-left: 500px;
+}
+
+/*v19*/
+.libre-barcode-39-extended-regular {
+  font-family: "Libre Barcode 39 Extended", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hover-word3 {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-word3:hover {
+  font-size: 0;
+}
+
+.hover-word3:hover .pop-up {
+  display: inline;
+  font-size: 1rem;
+  font-family: monospace; 
+}
+
+/*v20*/
+.inverted-text span {
+    display: inline-block; 
+    transform: rotate(-180deg);
+}
